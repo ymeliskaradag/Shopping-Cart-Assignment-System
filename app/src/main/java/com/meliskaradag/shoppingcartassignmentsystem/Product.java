@@ -12,7 +12,7 @@ public class Product {
     @XmlElement
     boolean isSold;
 
-    public Product() {}  // JAXB needs a no-arg constructor
+    public Product() {}
 
     public Product(int id, double price) {
         this.id = id;
